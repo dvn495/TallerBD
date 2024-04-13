@@ -402,7 +402,7 @@
     ```
 13. Devuelve un listado con el identificador y el nombre de fabricante, solamente de aquellos fabricantesque tienen productos asociados en la base de datos.
 
-  ```sql 
+    ```sql 
     SELECT DISTINCT f.codigo, f.nombre
     FROM producto as p, fabricante as f
     WHERE f.codigo = p.codigo_fabricante
